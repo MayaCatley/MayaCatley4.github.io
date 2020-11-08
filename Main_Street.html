@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang='en'>
+    
+<head>
+    
+        <meta charset='UTF-8/'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Main Street </title>
+ 
+<link href="https://fonts.googleapis.com/css2?family=Niramit:wght@200;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet"  href="disney_styles.css">
+   
+    </head>
+<body style="background-color:	rgb(225, 255, 255);">
+        
+                
+            <div>
+        
+            <ul class="nav">
+            <li><a href= "index.html">Home</a> </li>
+            <li><a href= "Main_Street.html">Main Street</a> </li>
+            <li><a href= "Adventure_Land.html">Adventureland</a> </li>
+            <li><a href= "Fantasy_Land.html">Fantasyland</a> </li>
+            <li><a href= "Frontierland.html">Frontierland</a> </li>
+            <li><a href= "Tomorrow_Land.html">Tomorrowland</a> </li>
+            </ul>
+                
+            </div>
+        
+        
+
+    
+    <div>
+    <img class="img-responsive" alt="Mainstreet Title" width=1520px src="SizedPictures/Mainstree_Title.jpg">
+    </div>
+    
+<hr class="solid">
+<h2>Food</h2>
+<hr class="solid">
+    
+<div class="row">
+<div class="gallery">
+  <a target="_blank" href="SizedPictures/Churros_Small.jpg">
+    <img src="SizedPictures/Churros_Small.jpg" alt="Churros" width="600" height="400">
+  </a>
+  <div class="desc">Churros are big, long doughnuts covered in cinnamon-sugar and served warm. What makes Disneyland’s churros special is the themed, limited-edition flavours, like the golden lemon churros for Pirates of the Caribbean and blue and red lightsaber churros for Star Wars.</div>
+</div>
+    
+<div class="gallery">
+  <a target="_blank" href="SizedPictures/Mickey-Bar_Small.jpg">
+    <img src="SizedPictures/Mickey-Bar_Small.jpg" alt="Mickey Bar" width="600" height="400">
+  </a>
+  <div class="desc">Vanilla ice cream enveloped in a chocolate coating and shaped like a silhouette of your Mickey mouse. Find it at just about every ice cream cart and freezer anywhere in Disney.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="SizedPictures/Waffle_Small5.jpg">
+    <img src="SizedPictures/Waffle_Small5.jpg" alt="Mickey Waffles" width="600" height="400">
+  </a>
+  <div class="desc">They’re made with golden malted flour, which makes all the difference. You can find them at lots of locations, including at the Grand Californian’s White Water Snacks, outside the park. Inside the park, you’ll see them on breakfast menus at Carnation Cafe and the Plaza Inn’s character breakfast buffet.</div>
+</div>
+    
+<div class="gallery">
+  <a target="_blank" href="SizedPictures/Corn_Dog_Small.jpg">
+    <img src="SizedPictures/Corn_Dog_Small.jpg" alt="Corn Dogs" width="600" height="400">
+  </a>
+  <div class="desc">Hand-dipped cornbread exteriors set these way apart from your run-of-the-mill corn dog. Find them at Corn Dog Castle in Disney California Adventure, and Little Red Wagon, and Stage Door Cafe.</div>
+</div>
+    </div>
+
+<hr class="solid">
+<h2>Attractions</h2>
+<hr class="solid">
+
+
+<div class="row">
+  <div class="column">
+    <img class="img-responsive" alt="The princess castle" src="SizedPictures/Castle_Small.jpg" style="width:80%">
+  </div>
+  <div class="column">
+    <h3>Sleeping Beautys Castle</h3>
+    <p>Explore winding passageways where the tale of Princess Aurora is told through spellbinding dioramas.
+Inspired by the film’s original Eyvind Earle artwork, this iconic attraction features 3-dimensional displays, sound and stunning special effects. Don’t miss the climactic final scene, when Maleficent transforms into a fire-breathing dragon.
+Inspired by Neuschwanstein Castle in Bavaria, Sleeping Beauty Castle opened on July 17, 1955, along with Disneyland Park. Guests could not actually walk through the castle’s interior until 1957.
+The drawbridge has only been lowered twice—once at the opening of the park in 1955 and again in 1983 at the rededication of Fantasyland.
+Any Height, Preschoolers, Kids, Tweens, Dark</p>
+  </div>
+</div>
+
+    
+<hr class="solid">
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="SizedPictures/Clock_Tower_Small.jpg" alt="clocktower" style="width:100%">
+    <div class="text">Mainstreet Clock Tower</div>
+  </div>    
+    
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="SizedPictures/Arcade_Small.jpg" alt="disneyland arcade" style="width:100%">
+    <div class="text">Mainstreet Arcade</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="SizedPictures/Cola_Lampost_Small.jpg" alt="picture of a lampost" style="width:100%">
+    <div class="text">Mainstreet Shopping</div>
+  </div>
+    
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 3</div>
+    <img src="SizedPictures/Disney_Globe_Small.jpg" alt="disneyland globe in tokyo" style="width:100%">
+    <div class="text">Mainstreet Globe</div>
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+    
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }   
+    </script>
+    
+    
+    <div class="footer"> &copy; Maya S Catley</div>
+    
+            </body>
+</html>
